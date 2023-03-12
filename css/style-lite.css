@@ -1,0 +1,9 @@
+#map {
+    width: 100wh;
+    height: 80vh;
+    overflow: scroll;
+}
+#search-routes {
+    width: 200px;
+    height: 150px;
+}

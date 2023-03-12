@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Leaflet styles for correctly map display blueprints display-->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" />
+    <!--Leaflet styles for route indications menu-->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+    <!--General styles-->
+    <link rel="stylesheet" href="css/style-lite.css">
+	<title>Geolocation</title>
+</head>
+<body>
+	<div id="map"></div>
+    
+    <div class="markersInput">
+        <div id="setOrigin">
+            <h3>Set the adventure's origin</h3>
+            <button id="origin">Select in the map</button>
+            <button id="current-pos">Use current position</button>
+        </div>
+        <button id="destiny">set Destiny</button>
+        <button id="search-routes">Search routes</button>
+        <button id="finalize-route">Finalize route</button>
+    </div>
+
+    <!--Routing machine leaflet quickstart-->
+	<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"></script>
+	<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+    <!--Own script for the routing-->
+    <script src="js/lite-map.js"></script>
+</body>
+</html>
